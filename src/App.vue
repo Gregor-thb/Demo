@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
-import { countTasks, addTask } from './tasks.js'
+import { countTasks, addTask } from './components/tasks.js'
 
 const tasks = ref([])
 const newTitle = ref('')
