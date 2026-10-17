@@ -6,7 +6,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <button @click="count++">
+  <button @click="count+= 5">
     Zähler: {{ count }}
   </button>
 </template>

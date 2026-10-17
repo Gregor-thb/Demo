@@ -1,4 +1,4 @@
 
 <template>
-  <p>Hallo Welt!</p>
+  <p>Hello, User!</p>
 </template>

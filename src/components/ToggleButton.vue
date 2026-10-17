@@ -6,6 +6,6 @@ const isOn = ref(false)
 
 <template>
   <button>
-    {{ isOn ? 'An' : 'Aus' }}
+    {{ isOn ? 'Aus' : 'An' }}
   </button>
 </template>
