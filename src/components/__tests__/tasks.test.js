@@ -1,5 +1,9 @@
 import { describe, it, expect } from 'vitest'
 import { countTasks, addTask } from '../tasks.js'
+import { mount } from '@vue/test-utils'
+import ButtonCounter from '../ButtonCounter.vue'
+import Greetings from '../Greetings.vue'
+import ToggleButton from '../ToggleButton.vue'
 
 describe('countTasks', () => {
   it('zählt alle Aufgaben', () => {
@@ -25,5 +29,33 @@ describe('addTask', () => {
 
   it('fügt keine leere Aufgabe hinzu', () => {
     expect(addTask([], '   ')).toHaveLength(0)
+  })
+})
+
+describe('CountButtons', () => {
+  it('Button counts correctly', async () => {
+  const wrapper = mount(ButtonCounter)
+
+  await wrapper.find('button').trigger('click')
+
+  expect(wrapper.text()).toContain('Zähler: 5')
+  })
+})
+
+describe('Greetings', () => {
+  it('Greetings greets the user', () => {
+    const wrapper = mount(Greetings)
+
+    expect(wrapper.text()).toContain('Hello, User!')
+  })
+})
+
+describe('ToggleButton', () => {
+  it('toggles the button state', async () => {
+    const wrapper = mount(ToggleButton)
+
+    await wrapper.find('button').trigger('click')
+
+    expect(wrapper.text()).toContain('An')
   })
 })

@@ -1,6 +1,9 @@
 <script setup>
 import { ref, computed } from 'vue'
 import { countTasks, addTask } from './components/tasks.js'
+import ButtonCounter from './components/ButtonCounter.vue'
+import Greetings from './components/Greetings.vue'
+import ToggleButton from './components/ToggleButton.vue'
 
 const tasks = ref([])
 const newTitle = ref('')
