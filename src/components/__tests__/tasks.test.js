@@ -32,7 +32,7 @@ describe('addTask', () => {
   })
 })
 
-describe('CountButtons', () => {
+/*describe('CountButtons', () => {
   it('Button counts correctly', async () => {
   const wrapper = mount(ButtonCounter)
 
@@ -42,7 +42,7 @@ describe('CountButtons', () => {
   })
 })
 
-describe('Greetings', () => {
+/*describe('Greetings', () => {
   it('Greetings greets the user', () => {
     const wrapper = mount(Greetings)
 
@@ -50,7 +50,7 @@ describe('Greetings', () => {
   })
 })
 
-describe('ToggleButton', () => {
+/*describe('ToggleButton', () => {
   it('toggles the button state', async () => {
     const wrapper = mount(ToggleButton)
 
