@@ -1,10 +1,10 @@
 import { describe, it, expect } from 'vitest'
 import { countTasks, addTask } from '../tasks.js'
-import { mount } from '@vue/test-utils'
+/*import { mount } from '@vue/test-utils'
 import ButtonCounter from '../ButtonCounter.vue'
 import Greetings from '../Greetings.vue'
 import ToggleButton from '../ToggleButton.vue'
-
+*/
 describe('countTasks', () => {
   it('zählt alle Aufgaben', () => {
     expect(countTasks([
