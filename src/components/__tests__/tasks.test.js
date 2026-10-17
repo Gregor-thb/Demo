@@ -42,7 +42,7 @@ describe('addTask', () => {
   })
 })
 
-/*describe('Greetings', () => {
+describe('Greetings', () => {
   it('Greetings greets the user', () => {
     const wrapper = mount(Greetings)
 
@@ -50,7 +50,7 @@ describe('addTask', () => {
   })
 })
 
-/*describe('ToggleButton', () => {
+describe('ToggleButton', () => {
   it('toggles the button state', async () => {
     const wrapper = mount(ToggleButton)
 
@@ -59,3 +59,4 @@ describe('addTask', () => {
     expect(wrapper.text()).toContain('An')
   })
 })
+*/
