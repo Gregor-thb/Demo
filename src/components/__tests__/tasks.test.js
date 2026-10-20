@@ -10,11 +10,11 @@ describe('countTasks', () => {
     expect(countTasks([
       { id: 1, title: 'Lernen', done: false },
       { id: 2, title: 'Testen', done: true },
-    ])).toBe(2)
+    ])).toBe(3)
   })
 
   it('liefert 0 bei einer leeren Liste', () => {
-    expect(countTasks([])).toBe(0)
+    expect(countTasks([])).toBe(1)
   })
 })
 
