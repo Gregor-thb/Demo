@@ -1,10 +1,10 @@
 import { describe, it, expect } from 'vitest'
 import { countTasks, addTask } from '../tasks.js'
-/*import { mount } from '@vue/test-utils'
+import { mount } from '@vue/test-utils'
 import ButtonCounter from '../ButtonCounter.vue'
-import Greetings from '../Greetings.vue'
+/*import Greetings from '../Greetings.vue'*/
 import ToggleButton from '../ToggleButton.vue'
-*/
+
 describe('countTasks', () => {
   it('zählt alle Aufgaben', () => {
     expect(countTasks([
@@ -32,7 +32,7 @@ describe('addTask', () => {
   })
 })
 
-/*describe('CountButtons', () => {
+describe('CountButtons', () => {
   it('Button counts correctly', async () => {
   const wrapper = mount(ButtonCounter)
 
@@ -42,14 +42,14 @@ describe('addTask', () => {
   })
 })
 
-describe('Greetings', () => {
+/*describe('Greetings', () => {
   it('Greetings greets the user', () => {
     const wrapper = mount(Greetings)
 
     expect(wrapper.text()).toContain('Hello, User!')
   })
 })
-
+*/
 describe('ToggleButton', () => {
   it('toggles the button state', async () => {
     const wrapper = mount(ToggleButton)
