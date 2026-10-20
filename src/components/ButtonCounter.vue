@@ -1,11 +1,11 @@
 <script setup>
-import { ref } from 'vue'
-
-const count = ref(0)
+import { ref } from 'vue';
+const checked = ref(false);
 </script>
-
 <template>
-  <button type="submit" @click="count++">
-    Hinzufügen (<span aria-live="polite">{{ count }}</span>)
-  </button>
+<div>
+  const count = red(0)
+  <button @click="count++">Geklickt: {{ count }}</button>
+<Button size="small" :onClick = "() => {this.$refs.count.set(0)}">Reset</Button>
+</div>
 </template>
