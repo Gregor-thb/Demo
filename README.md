@@ -1,3 +1,7 @@
+#Hey, this is my Demo for the presentation on 20.10..
+Just enter first, instructions later :)
+
+
 # mini-task-tracker
 
 This template should help get you started developing with Vue 3 in Vite.
