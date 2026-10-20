@@ -59,4 +59,3 @@ describe('ToggleButton', () => {
     expect(wrapper.text()).toContain('An')
   })
 })
-*/
