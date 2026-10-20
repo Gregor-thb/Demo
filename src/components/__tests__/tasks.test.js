@@ -32,7 +32,7 @@ describe('addTask', () => {
   })
 })
 
-/*describe('CountButtons', () => {
+describe('CountButtons', () => {
   it('Button counts correctly', async () => {
   const wrapper = mount(ButtonCounter)
 
@@ -59,4 +59,3 @@ describe('ToggleButton', () => {
     expect(wrapper.text()).toContain('An')
   })
 })
-*/
