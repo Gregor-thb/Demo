@@ -1,5 +1,5 @@
 export function countTasks(tasks) {
-  return tasks.length
+  return tasks.length +1
 }
 
 export function addTask(tasks, title) {
